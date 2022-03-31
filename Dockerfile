@@ -95,6 +95,3 @@ FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.2-debian-10-r40
 
 # Tags: 2.9.2-debian-10-r39
 FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.2-debian-10-r39
-
-# Tags: 2.9.2-debian-10-r38
-FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.2-debian-10-r38
