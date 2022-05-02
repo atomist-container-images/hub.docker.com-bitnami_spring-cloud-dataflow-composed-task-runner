@@ -1,12 +1,24 @@
-# Tags: latest, 2.9.4-debian-10-r23, 2.9.4, 2-debian-10, 2
+# Tags: latest, 2.9.4-debian-10-r27, 2.9.4, 2-debian-10, 2
 FROM bitnami/spring-cloud-dataflow-composed-task-runner:latest
-FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.4-debian-10-r23
+FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.4-debian-10-r27
 FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.4
 FROM bitnami/spring-cloud-dataflow-composed-task-runner:2-debian-10
 FROM bitnami/spring-cloud-dataflow-composed-task-runner:2
 
 # Tags: _
 FROM bitnami/spring-cloud-dataflow-composed-task-runner:_
+
+# Tags: 2.9.4-debian-10-r26
+FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.4-debian-10-r26
+
+# Tags: 2.9.4-debian-10-r25
+FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.4-debian-10-r25
+
+# Tags: 2.9.4-debian-10-r24
+FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.4-debian-10-r24
+
+# Tags: 2.9.4-debian-10-r23
+FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.4-debian-10-r23
 
 # Tags: 2.9.4-debian-10-r22
 FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.4-debian-10-r22
@@ -83,15 +95,3 @@ FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.3
 
 # Tags: 2.9.3-debian-10-r9
 FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.3-debian-10-r9
-
-# Tags: 2.9.3-debian-10-r8
-FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.3-debian-10-r8
-
-# Tags: 2.9.3-debian-10-r7
-FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.3-debian-10-r7
-
-# Tags: 2.9.3-debian-10-r5
-FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.3-debian-10-r5
-
-# Tags: 2.9.3-debian-10-r4
-FROM bitnami/spring-cloud-dataflow-composed-task-runner:2.9.3-debian-10-r4
